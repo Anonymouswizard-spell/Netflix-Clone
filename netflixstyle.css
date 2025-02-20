@@ -7,6 +7,11 @@
     background: url(assets/images/bg.jpg);
     height: 80vh;
     position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: max(1000px,100vw);
+
 }
 
 .main .box{
@@ -19,8 +24,45 @@
 }
 nav{
     display: flex;
-    max-width: 300vw;
+    max-width: 80vw;
     margin: auto;
     align-items: center;
     justify-content: space-between;
+}
+nav img
+{
+    color: red;
+    width: 140px;
+    position: relative;
+    z-index: 2;
+
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 10;8
+    flex-direction: column;
+}
+
+.hero :first-child{
+
+
+}
+.hero :nth-child(2){
+
+
+}
+.hero :nth-child(3){
+
+    
 }
